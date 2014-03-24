@@ -1,0 +1,13 @@
+{
+    "name"          : "Word Search",
+    "version"       : "0.1",
+    "manifest_version"  : 2,
+    "description"       : "Simple Search Plugin",
+    "browser_action": {
+      "default_icon": "title.PNG",
+    "default_title": "Word Search",
+    "default_popup": "popup.html"
+  },
+    "permissions":["tabs"],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

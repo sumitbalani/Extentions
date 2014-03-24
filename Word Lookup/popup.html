@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <style>
+            body{
+                font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+            }
+      </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+  </head>
+  <body>
+      <form>
+        <center>
+          Search
+        <input type="text" id="t"></input>
+        <input type="submit" style="position" id="s" value="search"> </input>
+        </center>
+      </form>
+    <div style="border: 3px solid rgb(139,136,120); overflow: hidden; margin: 15px auto; max-width: 500px;">
+      <iframe scrolling="yes" id="iframe_id" src= "http://dictionary.reference.com/browse/hello" onload = "this.src=getUrl()"  style="border: 0px none; margin-left: -170px; height:   800px; margin-top: -350px; width: 926px;">
+      </iframe>
+    </div>
+  </body>
+</html>
