@@ -4,12 +4,14 @@ Extentions
 Messing around with Chrome Extentions
 
 Overview: 
+_________
 
 Google Chrome is the best web browser around right now, and part of Chrome's appeal is owed to its excellent extensions. 
 I wanted to learn the simple chrome extensions, include the file structure and manifest.json file notation before 
 I spent time developing a much more extensive extension. 
 
 Basics:
+_______
 
 A manifest.json file along with an .html and/or .js file.
 
